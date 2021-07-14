@@ -1,0 +1,90 @@
+
+.mainPage{
+    display:grid;
+    padding:100px;
+}
+
+
+.mainPage .Program{
+    justify-self: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    width:max-content;
+    
+}
+
+.mainPage .Program .Poster{
+    position:relative;
+    background-color:gray;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+.Program .Poster .posterImage{
+    display:grid;
+
+}
+
+.Program .Poster .posterImage a{
+    width:max-content;
+    height:206.5px;
+}
+
+.Program .Poster .posterImage  img{
+    width:360px;
+    border:2px solid transparent;
+    transition-property: filter, border-color;
+    transition-duration: 500ms;
+    filter: brightness(0.85);
+    border-radius: 8px;
+    
+}
+
+.Program .Poster .posterImage  img:hover{
+    border-color:white;
+    transition-property: filter, border-color;
+    transition-duration: 500ms;
+    filter: brightness(1.05);
+}
+
+
+
+
+
+
+
+
+
+.Program .Poster .infoButton {
+    width:max-content;
+    height:max-content;
+}
+
+.Program .Poster .infoButton .Button{
+    background-color: rgba(100, 100, 100, 0.8);
+    color:lightgray;
+    font-weight: bold;
+    width:130px;
+    height:35px;
+    display:grid;
+    place-content: center;
+    position:absolute; 
+    top:160px;
+    left:225px;
+    border-radius: 50px;
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+}   
+.Program .Poster .infoButton .Button:hover{
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+    background-color: rgba(150, 150, 150, 0.9);
+    color:rgb(26, 26, 26);
+
+}   

@@ -1,0 +1,12 @@
+.Deco{
+    padding:100px;
+}
+
+#DecoLabel{
+    font-weight: bold;
+    font-size:larger;
+}
+
+#DecoLabel2{
+    color:red;
+}

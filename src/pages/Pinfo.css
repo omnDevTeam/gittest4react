@@ -1,0 +1,21 @@
+#info1{
+ font-weight: bold;
+}
+
+#info3{
+    font-weight: bold; 
+}
+
+#info2{
+    color:blue;
+}
+
+#info4{
+    color:blue;
+}
+
+.pInfo{
+    position:absolute;
+    width:500px;
+
+}
